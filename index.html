@@ -4,17 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eiies</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
     <style>
       body {
+        margin: 0;
+        padding: 0;
         background-color: green;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
       }
+      a {
+        text-decoration: none; /* 清除下划线 */
+        color: inherit; /* 继承父元素的文本颜色 */
+        font-size: 4em;
+        transition: font-size 0.5s ease; /* 添加过度效果 */
+      }
+      a:hover {
+        color: aqua;
+        font-size: 8em;
+      }
     </style>
   </head>
   <body>
-    <h1>Welcome</h1>
+    <a href="https://gpt.myblog.icu"> Welcome</a>
   </body>
 </html>
